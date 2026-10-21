@@ -6,6 +6,7 @@ Skills marked **Adapted** or **Third-party** in `catalog.json` come from the pro
 |---|---|---|
 | `apple-design` (adapted) | https://github.com/emilkowalski/skills | Copyright (c) 2026 Emil Kowalski |
 | `genjutsu-video-workflow` (adapted) | https://github.com/sirioberati/Genjustsu-Open-Source-Workflow | Copyright (c) 2026 Sirio Berati |
+| `bundles/linkedin-skills` (all 12 LinkedIn skills) | https://github.com/sergebulaev/linkedin-skills (commit 6d512c9) | Copyright (c) 2026 Sergey Bulaev |
 | `hairline-create` | https://github.com/lucasmarkes/hairline | Copyright (c) 2026 Lucas Marques |
 | `copywriting`, `copy-editing`, `sales-psychology`, `storytelling`, `objection-handling`, `social-proof-injection`, `urgency-creation`, `scarcity-urgency-calibration`, `ab-message-testing`, `analytics-tracking`, `customer-referrals`, `email-sequence` | https://github.com/louisblythe/sales-skills (commit e0f13a6) | Louis Blythe (README states: "MIT - Use these however you want.") |
 

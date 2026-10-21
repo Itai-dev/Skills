@@ -4,6 +4,7 @@
   "categories": {
     "design": { "title": "Design", "blurb": "Interfaces, motion and line art." },
     "marketing": { "title": "Marketing & Brand", "blurb": "Positioning, content, copy and growth." },
+    "linkedin": { "title": "LinkedIn", "blurb": "Posts, comments, replies and your profile.", "bundle": "bundles/linkedin-skills" },
     "sales": { "title": "Sales", "blurb": "Outreach, follow-ups and handling objections." },
     "business": { "title": "Business", "blurb": "Startup thinking and financial models." },
     "ai": { "title": "AI & Automation", "blurb": "AI pipelines, no-code builds and video." },
@@ -14,6 +15,7 @@
     "emilkowalski": { "label": "Adapted", "author": "Emil Kowalski", "license": "MIT", "url": "https://github.com/emilkowalski/skills", "copyright": "Copyright (c) 2026 Emil Kowalski" },
     "genjutsu": { "label": "Adapted", "author": "Sirio Berati", "license": "MIT", "url": "https://github.com/sirioberati/Genjustsu-Open-Source-Workflow", "copyright": "Copyright (c) 2026 Sirio Berati" },
     "hairline": { "label": "Open source", "author": "Lucas Marques", "license": "MIT", "url": "https://github.com/lucasmarkes/hairline", "copyright": "Copyright (c) 2026 Lucas Marques", "note": "This is the version your website uses. A newer version is available from its author." },
+    "linkedin-skills": { "label": "Open source", "author": "Serge Bulaev", "license": "MIT", "url": "https://github.com/sergebulaev/linkedin-skills", "copyright": "Copyright (c) 2026 Sergey Bulaev", "note": "Works without any setup: you get drafts to paste yourself. Auto-posting is optional and needs a free Publora account; some skills can read LinkedIn posts for you with an Apify key. Nothing is posted until you approve it." },
     "sales-skills": { "label": "Open source", "author": "Louis Blythe", "license": "MIT", "url": "https://github.com/louisblythe/sales-skills", "copyright": "Louis Blythe", "note": "Written for sales teams, so some parts talk about sales bots." }
   },
   "skills": {
@@ -65,6 +67,79 @@
       "title": "Performance Marketer",
       "summary": "Plans and fixes paid social campaigns on Meta, TikTok and YouTube: structure, budgets and creative tests.",
       "try": "My Meta ads return dropped this month. What should I test first?"
+    },
+
+    "linkedin-post-writer": {
+      "category": "linkedin", "source": "linkedin-skills",
+      "title": "Post Writer",
+      "summary": "Writes a LinkedIn post from scratch using proven hook formulas, picked by what you want: comments, reposts or saves. Has a special set of angles for founders.",
+      "try": "Write a LinkedIn post about what I learned rebranding a museum."
+    },
+    "linkedin-comment-drafter": {
+      "category": "linkedin", "source": "linkedin-skills",
+      "title": "Comment Writer",
+      "summary": "Drafts a smart comment on someone else's post, or a repost with your take, in your own voice.",
+      "try": "Draft a comment on this post: [paste LinkedIn post link]"
+    },
+    "linkedin-reply-handler": {
+      "category": "linkedin", "source": "linkedin-skills",
+      "title": "Reply Writer",
+      "summary": "Drafts replies to comments on your posts, one at a time or the whole thread at once.",
+      "try": "Draft replies to the comments on my latest post: [post link]"
+    },
+    "linkedin-humanizer": {
+      "category": "linkedin", "source": "linkedin-skills",
+      "title": "Humanizer & Post Check",
+      "summary": "Removes the tell-tale signs of AI writing from a post and checks a draft before you publish. Can also learn your writing voice from past posts.",
+      "try": "Check this draft before I post it and make it sound like me: \u2026"
+    },
+    "linkedin-hook-extractor": {
+      "category": "linkedin", "source": "linkedin-skills",
+      "title": "Hook Decoder",
+      "summary": "Breaks down why a viral post's opening worked and gives you a template to reuse.",
+      "try": "What hook does this viral post use? [post link]"
+    },
+    "linkedin-content-planner": {
+      "category": "linkedin", "source": "linkedin-skills",
+      "title": "Content Planner",
+      "summary": "Plans a week of LinkedIn posts: topic, format, hook, call to action and posting time for each day.",
+      "try": "Plan next week's LinkedIn posts for a creative director looking for clients."
+    },
+    "linkedin-repurposer": {
+      "category": "linkedin", "source": "linkedin-skills",
+      "title": "Repurposer",
+      "summary": "Turns a tweet, video, blog post or newsletter into a native LinkedIn post.",
+      "try": "Turn this newsletter into a LinkedIn post: \u2026"
+    },
+    "linkedin-interviewer": {
+      "category": "linkedin", "source": "linkedin-skills",
+      "title": "Story Interviewer",
+      "summary": "Interviews you to collect stories, numbers and opinions, and saves them so every future post has real material to draw on.",
+      "try": "Interview me so you have material for my posts."
+    },
+    "linkedin-profile-optimizer": {
+      "category": "linkedin", "source": "linkedin-skills",
+      "title": "Profile Makeover",
+      "summary": "Reviews and rewrites your LinkedIn profile: headline, About, Featured, banner and experience.",
+      "try": "Review my LinkedIn profile and rewrite my headline: [profile link]"
+    },
+    "linkedin-engager-analytics": {
+      "category": "linkedin", "source": "linkedin-skills",
+      "title": "Who Engaged",
+      "summary": "Lists who liked or commented on a post and sorts them into peers, prospects and others, with suggested next steps.",
+      "try": "Who engaged with this post, and who's worth reaching out to? [post link]"
+    },
+    "linkedin-thread-monitor": {
+      "category": "linkedin", "source": "linkedin-skills",
+      "title": "Reply Tracker",
+      "summary": "Tracks which of your comments got a reply from the post's author and flags the ones to follow up on now.",
+      "try": "Which of my LinkedIn comments got author replies this week?"
+    },
+    "linkedin-employee-advocacy": {
+      "category": "linkedin", "source": "linkedin-skills",
+      "title": "Team Posting Program",
+      "summary": "Sets up and runs a program to get a whole team posting on LinkedIn, with guidelines, cadence and results tracking.",
+      "try": "Help me get my team of five posting on LinkedIn every week."
     },
 
     "copywriting": {

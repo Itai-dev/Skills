@@ -33,6 +33,26 @@
       ]
     },
     {
+      "name": "itai-linkedin",
+      "description": "LinkedIn: Posts, comments, replies and your profile.",
+      "source": "./bundles/linkedin-skills",
+      "strict": false,
+      "skills": [
+        "./skills/linkedin-comment-drafter",
+        "./skills/linkedin-content-planner",
+        "./skills/linkedin-employee-advocacy",
+        "./skills/linkedin-engager-analytics",
+        "./skills/linkedin-hook-extractor",
+        "./skills/linkedin-humanizer",
+        "./skills/linkedin-interviewer",
+        "./skills/linkedin-post-writer",
+        "./skills/linkedin-profile-optimizer",
+        "./skills/linkedin-reply-handler",
+        "./skills/linkedin-repurposer",
+        "./skills/linkedin-thread-monitor"
+      ]
+    },
+    {
       "name": "itai-sales",
       "description": "Sales: Outreach, follow-ups and handling objections.",
       "source": "./",

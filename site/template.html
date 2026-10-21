@@ -249,7 +249,7 @@ function renderDrawer() {
   const note = s.note || src.note;
   const claudeStep = s.inAccount
     ? `<li><b>In the Claude app or claude.ai</b><span>It's already turned on in your account. Just ask, and Claude uses it when it fits. To call it by name, type <code>/${esc(s.name)}</code>.</span></li>`
-    : `<li><b>In the Claude app or claude.ai</b><span>Not in your account yet. Download the <code>${esc(s.name)}</code> folder from GitHub, zip it, then add it in Settings → Capabilities → Skills.</span></li>`;
+    : `<li><b>In the Claude app or claude.ai</b><span>Not in your account yet. Download the <a href="https://github.com/${DATA.repo}/tree/main/${esc(s.dir)}" target="_blank" rel="noopener">${esc(s.name)}</a> folder from GitHub, zip it, then add it in Settings → Capabilities → Skills.${s.dir.startsWith('bundles/') ? ' It shares files with the rest of its group, so it works best installed through Claude Code.' : ''}</span></li>`;
   const credit = s.source === 'own'
     ? 'Written by Itai.'
     : `${src.label === 'Adapted' ? 'Adapted from' : 'Made by'} <a href="${esc(src.url)}" target="_blank" rel="noopener">${esc(src.author)}</a>. Free to use under the ${esc(src.license)} licence.`;
@@ -267,9 +267,8 @@ function renderDrawer() {
       <h3>How to use it</h3>
       <ul class="how">
         ${claudeStep}
-        <li><b>In Claude Code</b><span>Add the library once, then install the ${esc(c.title)} group.</span>
-          ${cmd('cmd-add', `/plugin marketplace add ${DATA.repo}`)}
-          ${cmd('cmd-install', `/plugin install ${c.plugin}@${DATA.marketplace}`)}
+        <li><b>In Claude Code</b><span>Run this once to install the whole ${esc(c.title)} group.</span>
+          ${cmd('cmd-install', `/plugin install ${c.plugin} --marketplace ${DATA.repo}`)}
         </li>
       </ul>
     </div>
