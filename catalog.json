@@ -1,0 +1,51 @@
+{
+  "owner": "Itai Agami",
+  "categories": {
+    "design": { "title": "Design", "blurb": "Interfaces, motion and visual systems." },
+    "marketing": { "title": "Marketing & Brand", "blurb": "Positioning, content, copy and growth." },
+    "sales": { "title": "Sales", "blurb": "Outreach, persuasion and conversion." },
+    "business": { "title": "Business", "blurb": "Founder thinking and financial models." },
+    "ai": { "title": "AI & Automation", "blurb": "AI pipelines, no-code builds and generative video." },
+    "projects": { "title": "Project-specific", "blurb": "Skills tied to one of Itai's repos." }
+  },
+  "sources": {
+    "own": { "label": "Original", "license": "All rights reserved" },
+    "emilkowalski": { "label": "Adapted", "license": "MIT", "url": "https://github.com/emilkowalski/skills", "copyright": "Copyright (c) 2026 Emil Kowalski" },
+    "genjutsu": { "label": "Adapted", "license": "MIT", "url": "https://github.com/sirioberati/Genjustsu-Open-Source-Workflow", "copyright": "Copyright (c) 2026 Sirio Berati" },
+    "hairline": { "label": "Third-party", "license": "MIT", "url": "https://github.com/lucasmarkes/hairline", "copyright": "Copyright (c) 2026 Lucas Marques", "note": "Copy installed in Itai-dev/itaiagami. Upstream has a newer version." },
+    "sales-skills": { "label": "Third-party", "license": "MIT", "url": "https://github.com/louisblythe/sales-skills", "copyright": "Louis Blythe", "note": "12 of 122 skills, copied unchanged from commit e0f13a6." }
+  },
+  "skills": {
+    "apple-design":                 { "category": "design",    "source": "emilkowalski" },
+    "ui-ux-designer":               { "category": "design",    "source": "own" },
+    "hairline-create":              { "category": "design",    "source": "hairline" },
+
+    "brand-strategist":             { "category": "marketing", "source": "own" },
+    "content-strategist":           { "category": "marketing", "source": "own" },
+    "copywriter":                   { "category": "marketing", "source": "own" },
+    "dtc-growth-strategist":        { "category": "marketing", "source": "own" },
+    "performance-marketer":         { "category": "marketing", "source": "own" },
+
+    "copywriting":                  { "category": "sales",     "source": "sales-skills" },
+    "copy-editing":                 { "category": "sales",     "source": "sales-skills" },
+    "sales-psychology":             { "category": "sales",     "source": "sales-skills" },
+    "storytelling":                 { "category": "sales",     "source": "sales-skills" },
+    "objection-handling":           { "category": "sales",     "source": "sales-skills" },
+    "social-proof-injection":       { "category": "sales",     "source": "sales-skills" },
+    "urgency-creation":             { "category": "sales",     "source": "sales-skills" },
+    "scarcity-urgency-calibration": { "category": "sales",     "source": "sales-skills" },
+    "ab-message-testing":           { "category": "sales",     "source": "sales-skills" },
+    "analytics-tracking":           { "category": "sales",     "source": "sales-skills" },
+    "customer-referrals":           { "category": "sales",     "source": "sales-skills" },
+    "email-sequence":               { "category": "sales",     "source": "sales-skills" },
+
+    "tech-entrepreneur":            { "category": "business",  "source": "own" },
+    "financial-modeler":            { "category": "business",  "source": "own" },
+
+    "ai-workflow-engineer":         { "category": "ai",        "source": "own" },
+    "no-code-builder":              { "category": "ai",        "source": "own" },
+    "genjutsu-video-workflow":      { "category": "ai",        "source": "genjutsu" },
+
+    "landscape-research":           { "category": "projects",  "source": "own", "note": "Runs inside Itai-dev/Landscape." }
+  }
+}

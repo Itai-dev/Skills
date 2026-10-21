@@ -1,0 +1,86 @@
+{
+  "name": "itai-skills",
+  "owner": {
+    "name": "Itai Agami"
+  },
+  "metadata": {
+    "description": "Itai Agami's skill library",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "itai-design",
+      "description": "Design: Interfaces, motion and visual systems.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/apple-design",
+        "./skills/hairline-create",
+        "./skills/ui-ux-designer"
+      ]
+    },
+    {
+      "name": "itai-marketing",
+      "description": "Marketing & Brand: Positioning, content, copy and growth.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/brand-strategist",
+        "./skills/content-strategist",
+        "./skills/copywriter",
+        "./skills/dtc-growth-strategist",
+        "./skills/performance-marketer"
+      ]
+    },
+    {
+      "name": "itai-sales",
+      "description": "Sales: Outreach, persuasion and conversion.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/ab-message-testing",
+        "./skills/analytics-tracking",
+        "./skills/copy-editing",
+        "./skills/copywriting",
+        "./skills/customer-referrals",
+        "./skills/email-sequence",
+        "./skills/objection-handling",
+        "./skills/sales-psychology",
+        "./skills/scarcity-urgency-calibration",
+        "./skills/social-proof-injection",
+        "./skills/storytelling",
+        "./skills/urgency-creation"
+      ]
+    },
+    {
+      "name": "itai-business",
+      "description": "Business: Founder thinking and financial models.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/financial-modeler",
+        "./skills/tech-entrepreneur"
+      ]
+    },
+    {
+      "name": "itai-ai",
+      "description": "AI & Automation: AI pipelines, no-code builds and generative video.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/ai-workflow-engineer",
+        "./skills/genjutsu-video-workflow",
+        "./skills/no-code-builder"
+      ]
+    },
+    {
+      "name": "itai-projects",
+      "description": "Project-specific: Skills tied to one of Itai's repos.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/landscape-research"
+      ]
+    }
+  ]
+}
