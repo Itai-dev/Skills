@@ -1,51 +1,183 @@
 {
   "owner": "Itai Agami",
+  "inAccount": ["ai-workflow-engineer", "apple-design", "brand-strategist", "content-strategist", "copywriter", "dtc-growth-strategist", "financial-modeler", "genjutsu-video-workflow", "no-code-builder", "performance-marketer", "tech-entrepreneur", "ui-ux-designer"],
   "categories": {
-    "design": { "title": "Design", "blurb": "Interfaces, motion and visual systems." },
+    "design": { "title": "Design", "blurb": "Interfaces, motion and line art." },
     "marketing": { "title": "Marketing & Brand", "blurb": "Positioning, content, copy and growth." },
-    "sales": { "title": "Sales", "blurb": "Outreach, persuasion and conversion." },
-    "business": { "title": "Business", "blurb": "Founder thinking and financial models." },
-    "ai": { "title": "AI & Automation", "blurb": "AI pipelines, no-code builds and generative video." },
-    "projects": { "title": "Project-specific", "blurb": "Skills tied to one of Itai's repos." }
+    "sales": { "title": "Sales", "blurb": "Outreach, follow-ups and handling objections." },
+    "business": { "title": "Business", "blurb": "Startup thinking and financial models." },
+    "ai": { "title": "AI & Automation", "blurb": "AI pipelines, no-code builds and video." },
+    "projects": { "title": "My Projects", "blurb": "Skills that run inside one of Itai's repos." }
   },
   "sources": {
-    "own": { "label": "Original", "license": "All rights reserved" },
-    "emilkowalski": { "label": "Adapted", "license": "MIT", "url": "https://github.com/emilkowalski/skills", "copyright": "Copyright (c) 2026 Emil Kowalski" },
-    "genjutsu": { "label": "Adapted", "license": "MIT", "url": "https://github.com/sirioberati/Genjustsu-Open-Source-Workflow", "copyright": "Copyright (c) 2026 Sirio Berati" },
-    "hairline": { "label": "Third-party", "license": "MIT", "url": "https://github.com/lucasmarkes/hairline", "copyright": "Copyright (c) 2026 Lucas Marques", "note": "Copy installed in Itai-dev/itaiagami. Upstream has a newer version." },
-    "sales-skills": { "label": "Third-party", "license": "MIT", "url": "https://github.com/louisblythe/sales-skills", "copyright": "Louis Blythe", "note": "12 of 122 skills, copied unchanged from commit e0f13a6." }
+    "own": { "label": "By Itai", "license": "All rights reserved" },
+    "emilkowalski": { "label": "Adapted", "author": "Emil Kowalski", "license": "MIT", "url": "https://github.com/emilkowalski/skills", "copyright": "Copyright (c) 2026 Emil Kowalski" },
+    "genjutsu": { "label": "Adapted", "author": "Sirio Berati", "license": "MIT", "url": "https://github.com/sirioberati/Genjustsu-Open-Source-Workflow", "copyright": "Copyright (c) 2026 Sirio Berati" },
+    "hairline": { "label": "Open source", "author": "Lucas Marques", "license": "MIT", "url": "https://github.com/lucasmarkes/hairline", "copyright": "Copyright (c) 2026 Lucas Marques", "note": "This is the version your website uses. A newer version is available from its author." },
+    "sales-skills": { "label": "Open source", "author": "Louis Blythe", "license": "MIT", "url": "https://github.com/louisblythe/sales-skills", "copyright": "Louis Blythe", "note": "Written for sales teams, so some parts talk about sales bots." }
   },
   "skills": {
-    "apple-design":                 { "category": "design",    "source": "emilkowalski" },
-    "ui-ux-designer":               { "category": "design",    "source": "own" },
-    "hairline-create":              { "category": "design",    "source": "hairline" },
+    "apple-design": {
+      "category": "design", "source": "emilkowalski",
+      "title": "Apple-style Motion & UI",
+      "summary": "Designs and reviews interfaces with Apple's feel: springy, interruptible motion, gestures, depth and careful typography. Can also give a strict critique of existing animations.",
+      "try": "Review the animations on my landing page and tell me what feels off."
+    },
+    "ui-ux-designer": {
+      "category": "design", "source": "own",
+      "title": "UI/UX Designer",
+      "summary": "Plans screens, user flows and design systems, and critiques existing product UX.",
+      "try": "Map out the onboarding flow for my habit-tracking app."
+    },
+    "hairline-create": {
+      "category": "design", "source": "hairline",
+      "title": "Hairline Line Art",
+      "summary": "Draws an interactive isometric line-art figure that reacts to the mouse, delivered as a single HTML file.",
+      "try": "/hairline-create a lighthouse whose beam follows the cursor"
+    },
 
-    "brand-strategist":             { "category": "marketing", "source": "own" },
-    "content-strategist":           { "category": "marketing", "source": "own" },
-    "copywriter":                   { "category": "marketing", "source": "own" },
-    "dtc-growth-strategist":        { "category": "marketing", "source": "own" },
-    "performance-marketer":         { "category": "marketing", "source": "own" },
+    "brand-strategist": {
+      "category": "marketing", "source": "own",
+      "title": "Brand Strategist",
+      "summary": "Defines positioning, naming, brand voice and messaging so a brand stands apart from its competitors.",
+      "try": "Write a positioning statement for my AI-powered design studio."
+    },
+    "content-strategist": {
+      "category": "marketing", "source": "own",
+      "title": "Content Strategist",
+      "summary": "Plans content that builds an audience: LinkedIn, SEO, newsletters, YouTube and product launches.",
+      "try": "Build me a 4-week LinkedIn content plan."
+    },
+    "copywriter": {
+      "category": "marketing", "source": "own",
+      "title": "Copywriter",
+      "summary": "Writes copy that converts: ads, landing pages, emails, headlines and hooks.",
+      "try": "Write five headline options for my portfolio homepage."
+    },
+    "dtc-growth-strategist": {
+      "category": "marketing", "source": "own",
+      "title": "DTC Growth Strategist",
+      "summary": "Grows online consumer brands: customer acquisition, retention, lifetime value, Shopify, influencers and UGC.",
+      "try": "How do I get more repeat purchases on my Shopify store?"
+    },
+    "performance-marketer": {
+      "category": "marketing", "source": "own",
+      "title": "Performance Marketer",
+      "summary": "Plans and fixes paid social campaigns on Meta, TikTok and YouTube: structure, budgets and creative tests.",
+      "try": "My Meta ads return dropped this month. What should I test first?"
+    },
 
-    "copywriting":                  { "category": "sales",     "source": "sales-skills" },
-    "copy-editing":                 { "category": "sales",     "source": "sales-skills" },
-    "sales-psychology":             { "category": "sales",     "source": "sales-skills" },
-    "storytelling":                 { "category": "sales",     "source": "sales-skills" },
-    "objection-handling":           { "category": "sales",     "source": "sales-skills" },
-    "social-proof-injection":       { "category": "sales",     "source": "sales-skills" },
-    "urgency-creation":             { "category": "sales",     "source": "sales-skills" },
-    "scarcity-urgency-calibration": { "category": "sales",     "source": "sales-skills" },
-    "ab-message-testing":           { "category": "sales",     "source": "sales-skills" },
-    "analytics-tracking":           { "category": "sales",     "source": "sales-skills" },
-    "customer-referrals":           { "category": "sales",     "source": "sales-skills" },
-    "email-sequence":               { "category": "sales",     "source": "sales-skills" },
+    "copywriting": {
+      "category": "sales", "source": "sales-skills",
+      "title": "Sales Copywriting",
+      "summary": "Writes cold outreach, sales emails, LinkedIn messages and call scripts.",
+      "try": "Write a cold email to a startup that just raised its seed round."
+    },
+    "copy-editing": {
+      "category": "sales", "source": "sales-skills",
+      "title": "Sales Copy Editing",
+      "summary": "Edits sales emails, messages and scripts so they are shorter, clearer and more likely to get a reply.",
+      "try": "Edit this outreach email so it's shorter and clearer: …"
+    },
+    "email-sequence": {
+      "category": "sales", "source": "sales-skills",
+      "title": "Follow-up Sequences",
+      "summary": "Builds multi-step outreach sequences and follow-up timing.",
+      "try": "Create a 4-email follow-up sequence for leads who saw my portfolio."
+    },
+    "objection-handling": {
+      "category": "sales", "source": "sales-skills",
+      "title": "Objection Handling",
+      "summary": "Helps you answer pushback like \"too expensive\" or \"not now\" without getting defensive.",
+      "try": "A client says my day rate is too high. How do I respond?"
+    },
+    "sales-psychology": {
+      "category": "sales", "source": "sales-skills",
+      "title": "Sales Psychology",
+      "summary": "Explains how buyers decide and how to persuade ethically in sales conversations.",
+      "try": "Why do prospects go quiet after I send a proposal, and what can I do?"
+    },
+    "storytelling": {
+      "category": "sales", "source": "sales-skills",
+      "title": "Sales Storytelling",
+      "summary": "Turns projects and results into short stories that make the benefit concrete and memorable.",
+      "try": "Turn this client project into a short case-study story for a pitch."
+    },
+    "social-proof-injection": {
+      "category": "sales", "source": "sales-skills",
+      "title": "Social Proof",
+      "summary": "Picks the right testimonial or case study to mention for each prospect.",
+      "try": "Which of my past projects should I mention to a fintech lead?"
+    },
+    "urgency-creation": {
+      "category": "sales", "source": "sales-skills",
+      "title": "Urgency Without Pressure",
+      "summary": "Adds real time-sensitivity to an offer without sounding pushy.",
+      "try": "How can I give my offer a deadline that feels fair?"
+    },
+    "scarcity-urgency-calibration": {
+      "category": "sales", "source": "sales-skills",
+      "title": "Urgency Check",
+      "summary": "Judges when time pressure helps a deal and when it backfires.",
+      "try": "Is it OK to tell a lead I only have one slot left this quarter?"
+    },
+    "ab-message-testing": {
+      "category": "sales", "source": "sales-skills",
+      "title": "Message A/B Testing",
+      "summary": "Sets up tests of two or more message versions to see which gets more replies.",
+      "try": "Give me two versions of this LinkedIn message to test."
+    },
+    "analytics-tracking": {
+      "category": "sales", "source": "sales-skills",
+      "title": "Sales Metrics",
+      "summary": "Sets up and audits what to track in a sales pipeline.",
+      "try": "What should I track in my outreach pipeline each week?"
+    },
+    "customer-referrals": {
+      "category": "sales", "source": "sales-skills",
+      "title": "Referrals & Partners",
+      "summary": "Gets referrals from past clients and builds partner channels for new work.",
+      "try": "How do I ask past clients for referrals without it feeling awkward?"
+    },
 
-    "tech-entrepreneur":            { "category": "business",  "source": "own" },
-    "financial-modeler":            { "category": "business",  "source": "own" },
+    "tech-entrepreneur": {
+      "category": "business", "source": "own",
+      "title": "Founder Co-pilot",
+      "summary": "Thinks with you like a co-founder: ideas, validation, what to build first, competitors and go-to-market.",
+      "try": "I have an idea for an app. Help me check if it's worth building."
+    },
+    "financial-modeler": {
+      "category": "business", "source": "own",
+      "title": "Financial Modeler",
+      "summary": "Builds revenue projections, pricing tiers, unit economics and runway estimates.",
+      "try": "Model three pricing tiers for a subscription app."
+    },
 
-    "ai-workflow-engineer":         { "category": "ai",        "source": "own" },
-    "no-code-builder":              { "category": "ai",        "source": "own" },
-    "genjutsu-video-workflow":      { "category": "ai",        "source": "genjutsu" },
+    "ai-workflow-engineer": {
+      "category": "ai", "source": "own",
+      "title": "AI Workflow Engineer",
+      "summary": "Designs AI automations, prompt systems and API pipelines with Claude, OpenAI and image or video models.",
+      "try": "Design a pipeline that turns one brief into ten ad image variations."
+    },
+    "no-code-builder": {
+      "category": "ai", "source": "own",
+      "title": "No-Code Builder",
+      "summary": "Builds products and automations with Framer, Webflow, Bubble, Zapier, Make, Supabase, Airtable and Stripe.",
+      "try": "How do I add paid sign-ups to my Framer site?"
+    },
+    "genjutsu-video-workflow": {
+      "category": "ai", "source": "genjutsu",
+      "title": "Genjutsu Video Swap",
+      "summary": "Replaces the person or object in a video with the open-source Genjutsu workflow. Makes a draft first, then the HD version, and keeps the original audio.",
+      "try": "Swap the person in this clip for my 3D character."
+    },
 
-    "landscape-research":           { "category": "projects",  "source": "own", "note": "Runs inside Itai-dev/Landscape." }
+    "landscape-research": {
+      "category": "projects", "source": "own",
+      "title": "Landscape Research",
+      "summary": "Runs a research cycle for the Landscape map: finds new creative-industry organizations and re-checks old records.",
+      "try": "Run a research cycle on Tel Aviv design studios.",
+      "note": "Works inside the Itai-dev/Landscape repo."
+    }
   }
 }

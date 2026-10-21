@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "itai-design",
-      "description": "Design: Interfaces, motion and visual systems.",
+      "description": "Design: Interfaces, motion and line art.",
       "source": "./",
       "strict": false,
       "skills": [
@@ -34,7 +34,7 @@
     },
     {
       "name": "itai-sales",
-      "description": "Sales: Outreach, persuasion and conversion.",
+      "description": "Sales: Outreach, follow-ups and handling objections.",
       "source": "./",
       "strict": false,
       "skills": [
@@ -54,7 +54,7 @@
     },
     {
       "name": "itai-business",
-      "description": "Business: Founder thinking and financial models.",
+      "description": "Business: Startup thinking and financial models.",
       "source": "./",
       "strict": false,
       "skills": [
@@ -64,7 +64,7 @@
     },
     {
       "name": "itai-ai",
-      "description": "AI & Automation: AI pipelines, no-code builds and generative video.",
+      "description": "AI & Automation: AI pipelines, no-code builds and video.",
       "source": "./",
       "strict": false,
       "skills": [
@@ -75,7 +75,7 @@
     },
     {
       "name": "itai-projects",
-      "description": "Project-specific: Skills tied to one of Itai's repos.",
+      "description": "My Projects: Skills that run inside one of Itai's repos.",
       "source": "./",
       "strict": false,
       "skills": [

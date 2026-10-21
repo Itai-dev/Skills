@@ -50,56 +50,56 @@ Anthropic's built-in skills (docx, pdf, pptx, xlsx and so on) are not copied her
 
 | Skill | What it does | Source |
 |---|---|---|
-| [`apple-design`](skills/apple-design/SKILL.md) | Apple's approach to interface design and fluid, physical motion, translated for the web — with a strict review mode for critiquing… | Adapted |
-| [`hairline-create`](skills/hairline-create/SKILL.md) | Use when someone asks for a new Hairline figure, or runs /hairline-create with an idea. Draws one isometric line figure that answers the… | Third-party |
-| [`ui-ux-designer`](skills/ui-ux-designer/SKILL.md) | Use when designing product interfaces, user flows, or design systems. Triggers on: Figma, wireframes, user flows, onboarding design,… | Original |
+| [Apple-style Motion & UI](skills/apple-design/SKILL.md) `apple-design` | Designs and reviews interfaces with Apple's feel: springy, interruptible motion, gestures, depth and careful typography. Can also give a strict critique of existing animations. | Adapted |
+| [Hairline Line Art](skills/hairline-create/SKILL.md) `hairline-create` | Draws an interactive isometric line-art figure that reacts to the mouse, delivered as a single HTML file. | Open source |
+| [UI/UX Designer](skills/ui-ux-designer/SKILL.md) `ui-ux-designer` | Plans screens, user flows and design systems, and critiques existing product UX. | By Itai |
 
 ### Marketing & Brand · `itai-marketing`
 
 | Skill | What it does | Source |
 |---|---|---|
-| [`brand-strategist`](skills/brand-strategist/SKILL.md) | Use when defining, positioning, or differentiating a brand. Triggers on: naming, positioning statements, brand voice, competitive… | Original |
-| [`content-strategist`](skills/content-strategist/SKILL.md) | Use when planning or creating content for audience building, SEO, social media, or distribution. Triggers on: LinkedIn strategy, content… | Original |
-| [`copywriter`](skills/copywriter/SKILL.md) | Use when writing copy for ads, landing pages, emails, headlines, hooks, or any text meant to convert. Triggers on: ad copy, email… | Original |
-| [`dtc-growth-strategist`](skills/dtc-growth-strategist/SKILL.md) | Use when growing a DTC or e-commerce brand. Triggers on: DTC acquisition, retention, LTV, Shopify, email marketing for e-commerce,… | Original |
-| [`performance-marketer`](skills/performance-marketer/SKILL.md) | Use when planning, launching, or optimizing paid social campaigns. Triggers on: Meta ads, TikTok ads, YouTube ads, ROAS, CAC, creative… | Original |
+| [Brand Strategist](skills/brand-strategist/SKILL.md) `brand-strategist` | Defines positioning, naming, brand voice and messaging so a brand stands apart from its competitors. | By Itai |
+| [Content Strategist](skills/content-strategist/SKILL.md) `content-strategist` | Plans content that builds an audience: LinkedIn, SEO, newsletters, YouTube and product launches. | By Itai |
+| [Copywriter](skills/copywriter/SKILL.md) `copywriter` | Writes copy that converts: ads, landing pages, emails, headlines and hooks. | By Itai |
+| [DTC Growth Strategist](skills/dtc-growth-strategist/SKILL.md) `dtc-growth-strategist` | Grows online consumer brands: customer acquisition, retention, lifetime value, Shopify, influencers and UGC. | By Itai |
+| [Performance Marketer](skills/performance-marketer/SKILL.md) `performance-marketer` | Plans and fixes paid social campaigns on Meta, TikTok and YouTube: structure, budgets and creative tests. | By Itai |
 
 ### Sales · `itai-sales`
 
 | Skill | What it does | Source |
 |---|---|---|
-| [`ab-message-testing`](skills/ab-message-testing/SKILL.md) | When the user wants to build or improve a sales bot's ability to automatically test message variations to optimize conversion. Also use… | Third-party |
-| [`analytics-tracking`](skills/analytics-tracking/SKILL.md) | When the user wants to set up, improve, or audit sales metrics and pipeline tracking. Also use when the user mentions "sales metrics,"… | Third-party |
-| [`copy-editing`](skills/copy-editing/SKILL.md) | When the user wants to edit, review, or improve sales messages, emails, or scripts. Also use when the user mentions 'edit this email,'… | Third-party |
-| [`copywriting`](skills/copywriting/SKILL.md) | When the user wants to write cold outreach, sales emails, LinkedIn messages, or sales scripts. Also use when the user says "write an… | Third-party |
-| [`customer-referrals`](skills/customer-referrals/SKILL.md) | When the user wants to generate referrals from customers, build partner sales channels, or leverage relationships for new business. Also… | Third-party |
-| [`email-sequence`](skills/email-sequence/SKILL.md) | When the user wants to create or optimize a sales outreach sequence, follow-up cadence, or prospecting campaign. Also use when the user… | Third-party |
-| [`objection-handling`](skills/objection-handling/SKILL.md) | When the user wants to improve their ability to address prospect concerns, overcome resistance, or respond to pushback without being… | Third-party |
-| [`sales-psychology`](skills/sales-psychology/SKILL.md) | When the user wants to apply psychological principles to sales conversations, understand buyer behavior, or use persuasion techniques… | Third-party |
-| [`scarcity-urgency-calibration`](skills/scarcity-urgency-calibration/SKILL.md) | When the user wants to build or improve a sales bot's ability to use time pressure appropriately. Also use when the user mentions… | Third-party |
-| [`social-proof-injection`](skills/social-proof-injection/SKILL.md) | When the user wants to build or improve a sales bot's ability to dynamically insert relevant testimonials and case studies. Also use… | Third-party |
-| [`storytelling`](skills/storytelling/SKILL.md) | When the user wants to improve their ability to use narratives and case studies to make benefits tangible and memorable. Also use when… | Third-party |
-| [`urgency-creation`](skills/urgency-creation/SKILL.md) | When the user wants to build or improve a sales bot's ability to introduce scarcity or time-sensitivity without being pushy. Also use… | Third-party |
+| [Message A/B Testing](skills/ab-message-testing/SKILL.md) `ab-message-testing` | Sets up tests of two or more message versions to see which gets more replies. | Open source |
+| [Sales Metrics](skills/analytics-tracking/SKILL.md) `analytics-tracking` | Sets up and audits what to track in a sales pipeline. | Open source |
+| [Sales Copy Editing](skills/copy-editing/SKILL.md) `copy-editing` | Edits sales emails, messages and scripts so they are shorter, clearer and more likely to get a reply. | Open source |
+| [Sales Copywriting](skills/copywriting/SKILL.md) `copywriting` | Writes cold outreach, sales emails, LinkedIn messages and call scripts. | Open source |
+| [Referrals & Partners](skills/customer-referrals/SKILL.md) `customer-referrals` | Gets referrals from past clients and builds partner channels for new work. | Open source |
+| [Follow-up Sequences](skills/email-sequence/SKILL.md) `email-sequence` | Builds multi-step outreach sequences and follow-up timing. | Open source |
+| [Objection Handling](skills/objection-handling/SKILL.md) `objection-handling` | Helps you answer pushback like "too expensive" or "not now" without getting defensive. | Open source |
+| [Sales Psychology](skills/sales-psychology/SKILL.md) `sales-psychology` | Explains how buyers decide and how to persuade ethically in sales conversations. | Open source |
+| [Urgency Check](skills/scarcity-urgency-calibration/SKILL.md) `scarcity-urgency-calibration` | Judges when time pressure helps a deal and when it backfires. | Open source |
+| [Social Proof](skills/social-proof-injection/SKILL.md) `social-proof-injection` | Picks the right testimonial or case study to mention for each prospect. | Open source |
+| [Sales Storytelling](skills/storytelling/SKILL.md) `storytelling` | Turns projects and results into short stories that make the benefit concrete and memorable. | Open source |
+| [Urgency Without Pressure](skills/urgency-creation/SKILL.md) `urgency-creation` | Adds real time-sensitivity to an offer without sounding pushy. | Open source |
 
 ### Business · `itai-business`
 
 | Skill | What it does | Source |
 |---|---|---|
-| [`financial-modeler`](skills/financial-modeler/SKILL.md) | Use when building financial models, pricing strategies, or unit economics analysis. Triggers on: revenue projections, CAC, LTV, pricing… | Original |
-| [`tech-entrepreneur`](skills/tech-entrepreneur/SKILL.md) | End-to-end co-founder thinking for solo tech founders and indie hackers. Use this skill whenever someone wants to: brainstorm startup… | Original |
+| [Financial Modeler](skills/financial-modeler/SKILL.md) `financial-modeler` | Builds revenue projections, pricing tiers, unit economics and runway estimates. | By Itai |
+| [Founder Co-pilot](skills/tech-entrepreneur/SKILL.md) `tech-entrepreneur` | Thinks with you like a co-founder: ideas, validation, what to build first, competitors and go-to-market. | By Itai |
 
 ### AI & Automation · `itai-ai`
 
 | Skill | What it does | Source |
 |---|---|---|
-| [`ai-workflow-engineer`](skills/ai-workflow-engineer/SKILL.md) | Use when designing AI-powered automations, prompt architectures, or API-based pipelines. Triggers on: OpenAI API, Claude API, prompt… | Original |
-| [`genjutsu-video-workflow`](skills/genjutsu-video-workflow/SKILL.md) | Run the open-source Genjutsu (TEIN) video subject-replacement workflow: depth + SAM 3 masks or face mesh, Seedance via Enhancor, draft… | Adapted |
-| [`no-code-builder`](skills/no-code-builder/SKILL.md) | Use when building products, automations, or workflows without traditional coding. Triggers on: Framer, Bubble, Webflow, Make,… | Original |
+| [AI Workflow Engineer](skills/ai-workflow-engineer/SKILL.md) `ai-workflow-engineer` | Designs AI automations, prompt systems and API pipelines with Claude, OpenAI and image or video models. | By Itai |
+| [Genjutsu Video Swap](skills/genjutsu-video-workflow/SKILL.md) `genjutsu-video-workflow` | Replaces the person or object in a video with the open-source Genjutsu workflow. Makes a draft first, then the HD version, and keeps the original audio. | Adapted |
+| [No-Code Builder](skills/no-code-builder/SKILL.md) `no-code-builder` | Builds products and automations with Framer, Webflow, Bubble, Zapier, Make, Supabase, Airtable and Stripe. | By Itai |
 
-### Project-specific · `itai-projects`
+### My Projects · `itai-projects`
 
 | Skill | What it does | Source |
 |---|---|---|
-| [`landscape-research`](skills/landscape-research/SKILL.md) | Run a Landscape research cycle — discover new creative-industry organizations and/or re-verify stale records, merge them into data/orgs,… | Original |
+| [Landscape Research](skills/landscape-research/SKILL.md) `landscape-research` | Runs a research cycle for the Landscape map: finds new creative-industry organizations and re-checks old records. | By Itai |
 
 <!-- INDEX:END -->

@@ -63,8 +63,13 @@ const skills = dirs.filter((d) => catalog.skills[d]).map((d) => {
   const entry = catalog.skills[d];
   if (!catalog.categories[entry.category]) errors.push(`${d}: unknown category "${entry.category}"`);
   if (!catalog.sources[entry.source]) errors.push(`${d}: unknown source "${entry.source}"`);
+  for (const f of ['title', 'summary', 'try']) if (!entry[f]) errors.push(`${d}: catalog.json is missing "${f}"`);
   return {
     name: d,
+    title: entry.title || d,
+    summary: entry.summary || '',
+    try: entry.try || '',
+    inAccount: (catalog.inAccount || []).includes(d),
     description: meta.description || '',
     argumentHint: meta['argument-hint'] || '',
     category: entry.category,
@@ -121,9 +126,9 @@ const readme = readFileSync(readmePath, 'utf8');
 const table = Object.entries(catalog.categories).map(([cat, c]) => {
   const rows = skills.filter((s) => s.category === cat);
   if (!rows.length) return '';
-  const short = (t) => (t.length > 140 ? t.slice(0, 137).replace(/\s+\S*$/, '') + '…' : t).replace(/\|/g, '\\|');
+  const cell = (t) => t.replace(/\|/g, '\\|');
   return `### ${c.title} · \`${plugin(cat)}\`\n\n| Skill | What it does | Source |\n|---|---|---|\n` +
-    rows.map((s) => `| [\`${s.name}\`](skills/${s.name}/SKILL.md) | ${short(s.description)} | ${catalog.sources[s.source].label} |`).join('\n') + '\n';
+    rows.map((s) => `| [${cell(s.title)}](skills/${s.name}/SKILL.md) \`${s.name}\` | ${cell(s.summary)} | ${catalog.sources[s.source].label} |`).join('\n') + '\n';
 }).filter(Boolean).join('\n');
 outputs['README.md'] = readme.replace(
   /(<!-- INDEX:START -->)[\s\S]*?(<!-- INDEX:END -->)/,
